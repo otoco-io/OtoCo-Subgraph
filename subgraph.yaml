@@ -1,6 +1,6 @@
-specVersion: 0.0.2
-description: Otoco - Ropsten
-repository: https://github.com/graphprotocol/example-subgraph
+specVersion: 0.0.5
+description: Automated Company Assembly on Blockchain. Real-world Company Formation using your Digital Wallet.
+repository: https://github.com/otocorp/OtoCo-Subgraph
 schema:
   file: ./schema.graphql
 dataSources:

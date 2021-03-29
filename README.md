@@ -31,6 +31,7 @@ type Company @entity {
   jurisdiction: JURISDICTION! # Series Jurisdiction
   creator: Bytes! # Address of the creator of the series
   owner: Bytes! # Current owner address
+  
 }
 ```
 
