@@ -1,0 +1,21 @@
+enum JURISDICTION {
+  DELAWARE,
+  WYOMING
+}
+
+type Master @entity {
+  id: ID!
+  companiesCount: Int!
+  companies: [Company]!
+  jurisdiction: JURISDICTION!
+}
+
+type Company @entity {
+  id: ID!
+  parent: Master!
+  name: String! # Series name
+  jurisdiction: JURISDICTION!
+  creator: Bytes! # address
+  owner: Bytes! # address
+  creation: BigInt!
+}

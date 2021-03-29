@@ -1,0 +1,2 @@
+export const MASTER_DELAWARE = '0x24870e04f2573a132b695c48eb9ff2f3c8b0f410'
+export const MASTER_WYOMING = '0xfc952ecf2ee199fa8c63a86424e3978f2deb86ef'
