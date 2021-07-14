@@ -1,13 +1,13 @@
 {
-  "name": "otoco",
+  "name": "OtoCo - Subgraph",
   "license": "UNLICENSED",
   "scripts": {
     "codegen": "graph codegen",
     "build": "graph build",
-    "deploy": "graph deploy --node https://api.thegraph.com/deploy/ --ipfs https://api.thegraph.com/ipfs/ filipesoccol/otoco",
-    "create-local": "graph create --node http://localhost:8020/ filipesoccol/otoco",
-    "remove-local": "graph remove --node http://localhost:8020/ filipesoccol/otoco",
-    "deploy-local": "graph deploy --node http://localhost:8020/ --ipfs http://localhost:5001 filipesoccol/otoco"
+    "deploy": "graph deploy --node https://api.thegraph.com/deploy/ --ipfs https://api.thegraph.com/ipfs/ otoco-io/otoco",
+    "create-local": "graph create --node http://localhost:8020/ otoco-io/otoco",
+    "remove-local": "graph remove --node http://localhost:8020/ otoco-io/otoco",
+    "deploy-local": "graph deploy --node http://localhost:8020/ --ipfs http://localhost:5001 otoco-io/otoco"
   },
   "dependencies": {
     "@graphprotocol/graph-cli": "^0.21.0",
