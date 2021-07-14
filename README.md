@@ -35,8 +35,8 @@ type Company @entity {
 }
 ```
 
-To create graph, run `graph create moloch --node http://127.0.0.1:8020`
+To create graph, run `graph create otoco --node http://127.0.0.1:8020`
 
-After updating subgraph or schema, run `yarn codegen`
+After updating subgraph or schema, run `npm codegen`
 
-To deploy locally, run `graph deploy jamesyoung/moloch --debug --ipfs http://localhost:5001/ --node http://127.0.0.1:8020`
+To deploy locally, run `graph deploy otoco-io/otoco --debug --ipfs http://localhost:5001/ --node http://127.0.0.1:8020`

@@ -1,4 +1,4 @@
-specVersion: 0.0.5
+specVersion: 0.0.3
 description: Automated Company Assembly on Blockchain. Real-world Company Formation using your Digital Wallet.
 repository: https://github.com/otocorp/OtoCo-Subgraph
 schema:
