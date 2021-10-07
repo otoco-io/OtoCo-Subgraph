@@ -18,4 +18,5 @@ type Company @entity {
   creator: Bytes! # address
   owner: Bytes! # address
   creation: BigInt!
+  modified: BigInt!
 }

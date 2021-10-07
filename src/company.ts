@@ -8,6 +8,7 @@ export function handleSeriesOwnershipTransferred(event: OwnershipTransferred): v
 
   let company = Company.load(event.address.toHexString())
   company.owner = event.params.newOwner
+  company.modified = event.block.timestamp
   company.save()
 
 }
