@@ -8,7 +8,7 @@ import {
 } from "../generated/MasterDelaware/MasterContract"
 import { Master, Company } from "../generated/schema"
 import { Company as CompanyTemplate } from "../generated/templates"
-import { MASTER_DELAWARE, MASTER_WYOMING } from "./helpers"
+import { MASTER_DELAWARE, MASTER_WYOMING, MASTER_DAO } from "./helpers"
 
 export function handleNewSeriesCreated(event: NewSeriesCreated): void {
 
@@ -19,6 +19,7 @@ export function handleNewSeriesCreated(event: NewSeriesCreated): void {
     factory.companies = []
     if (event.address.toHexString() == MASTER_DELAWARE) factory.jurisdiction = 'DELAWARE'
     if (event.address.toHexString() == MASTER_WYOMING) factory.jurisdiction = 'WYOMING'
+    if (event.address.toHexString() == MASTER_DAO) factory.jurisdiction = 'DAO'
   }
   factory.companiesCount += 1
   factory.save()

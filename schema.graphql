@@ -1,6 +1,7 @@
 enum JURISDICTION {
   DELAWARE,
-  WYOMING
+  WYOMING,
+  DAO
 }
 
 type Master @entity {
